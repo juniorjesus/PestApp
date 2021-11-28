@@ -1,0 +1,96 @@
+#detalle {
+    font-family: Nunito;
+    font-style: normal;
+}
+
+.btn-contactar {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+}
+
+.carinoso, .inquieto, .jugueton, .tierno, .curioso, .perezoso, .tranquilo, .aventurero, .paciente {
+    border-style: solid;
+    border-color: var(--color-secundary)
+}
+
+.imagen-personalidad {
+    text-align: center;
+}
+
+.descripcion-mascota {
+    position: absolute;
+    background-color: white;
+    top: 415px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.flotante-favorito {
+    position: absolute;
+    top: 0%;
+    right: 14px;
+    z-index: 100;
+}
+
+.flotante-atras {
+    position: absolute;
+    z-index: 100;
+    left: 24px;
+    top: 24px;
+}
+
+.cards {
+    border-radius: 8px;
+    width: 92px;
+    height: 92px;
+    padding: 10px;
+    justify-content: center;
+    text-align: -webkit-center;
+
+}
+
+.img-detalle-mascota{
+    width: 100%;
+
+}
+
+@media (min-width: 540px){
+    .descripcion-mascota {
+        top: 30px;
+        width: 65%;
+        left: 35%;
+    }
+    .img-detalle-mascota {
+        width: 35%;
+        /*position: absolute;
+        left: 0px;
+        top: 0px;*/
+    }
+    .texto-detalle-mascota {
+        font-size: 25px !important;
+    }
+    .texto-detalle-mascota-ubicacion {
+        width: 140%;
+        font-size: 25px !important;
+    }
+    header{
+        margin-top: 66px;
+    }
+    .flotante-favorito{
+        bottom: 535px;
+        top: 5%;
+        z-index: 0;
+    }
+    .flotante-atras{
+        display: none;
+    }
+    .imagen-mascota, .descripcion-mascota{
+        padding: 20px;
+    }
+    .contactar{
+        margin-bottom: 15px !important;
+    }
+
+}

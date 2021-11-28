@@ -1,0 +1,73 @@
+.mensaje {
+    background: white;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 8px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.enlace-ver-mensaje {
+    text-decoration: none !important;
+}
+
+body {
+    background: var(--color-primary);
+    font-family: 'Nunito';
+}
+
+.contenido-mensaje {
+    margin-top: -16px;
+    color: #535353;
+}
+
+.ver-mensaje {
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+#imagen-contacto {
+    margin-top: 8px;
+    margin-left: -8px;
+}
+
+.hora {
+    margin-left: -32px;
+}
+
+.usuario {
+    color: #0E172C;
+}
+
+@media (min-width: 540px){
+    .titulo {
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .mensaje {
+        padding: 15px;
+        height: 90px;
+    }
+    .contenido-mensaje {
+        margin-top: -5px;
+    }
+    .contenedor-mensajes {
+        width: 80%;
+        background: #c3f0f4;
+        margin-left: 10%;
+        border-radius: 25px;
+        padding: 20px;
+    }
+    #imagen-contacto {
+        margin-top: -5px;
+        width: 68px;
+    }
+    .div-usuario{
+        width: 80%;
+        background: #c3f0f4;
+        margin-left: 10%;
+        border-radius: 25px;
+        padding: 20px;
+    }
+}

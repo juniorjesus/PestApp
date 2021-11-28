@@ -1,0 +1,75 @@
+#mensajes {
+    background: var(--color-primary);
+}
+
+#div-contacto {
+    background-color: white;
+}
+.imagen-contacto {
+    text-align: center;
+}
+
+.contenido {
+    text-align: center;
+    align-items: center;
+    top: 400px;
+    position: absolute;
+    left: 115px;
+}
+
+.txt-mensaje {
+    width: 350px;
+    height: 48px;
+    left: 8px;
+    top: 700px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 100px;
+    position: absolute;
+}
+.txt-mensaje2 {
+    height: 48px;
+    left: 8px;
+    top: 700px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 100px;
+    margin-top: 25%;
+}
+.flotante-atras {
+    position: absolute;
+    z-index: 100;
+    left: 24px;
+    top: 24px;
+}
+
+.vacio{
+    text-align: center;
+    margin-top: 70%;
+    margin-bottom: 50%;
+}
+
+.header-contacto{
+    width: 100% !important;
+}
+
+
+@media (min-width: 540px){
+    #div-contacto {
+        margin-top: 4%;
+    }
+    .contenedor-mensajes {
+        width: 80%;
+        background: #c3f0f4;
+        margin-left: 10%;
+        border-radius: 25px;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    .flotante-atras{
+        display: none;
+    }
+    .vacio{
+        margin-top: 20%;
+    }
+}

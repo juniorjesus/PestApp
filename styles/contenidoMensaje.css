@@ -1,0 +1,66 @@
+.mensaje-enviado, .mensaje-recibido {
+    background: white;
+}
+
+.mensaje-enviado {
+    margin-left: 96px;
+    margin-right: 24px;
+    padding: 16px;
+    width: 255px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.mensaje-recibido {
+    width: 255px;
+    height: auto;
+    background: #535353;
+    border-radius: 16px;
+    padding: 16px;
+    margin-left: 24px;
+    margin-right: 96px;
+    color: #FFFFFE;
+}
+
+.hora-enviado, .hora-recibido {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.cuerpo-mensaje {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.flotante-atras {
+    position: absolute;
+    z-index: 100;
+    left: 24px;
+    top: 24px;
+}
+.header-contacto{
+    width: 100% !important;
+}
+
+@media (min-width: 540px){
+    .contenedor-mensajes {
+        width: 70%;
+        background: #c3f0f4;
+        margin-left: 15%;
+        border-radius: 25px;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    .mensaje-enviado{
+        margin-left: 55%;
+        width: 40%;
+    }
+    .mensaje-recibido{
+        margin-left: 5%;
+        width: 40%;
+    }
+    .flotante-atras{
+        display: none;
+    }
+}
