@@ -1,12 +1,12 @@
 import usuariosBD from './usuariosBD.js'
 
-/*function registrarse() {
+function registrarse() {
 
 }
 function iniciarSesion() {
-    //let datos = document.querySelector(".datos")
+    let datos = document.querySelector(".datos")
     let usuarios = usuariosBD
-    //datos.innerHTML = ''
+    datos.innerHTML = ''
     localStorage.setItem("Usuario", JSON.stringify(usuarios));
     var usuarios2 = []
 
@@ -22,7 +22,7 @@ function iniciarSesion() {
             pass: pass.value,
         }
         console.log(usuario);
-        //e.preventDefault()
+        e.preventDefault()
         if (usuario.user == usuarios2.usuario && usuario.pass == usuarios2.contrasenia) {
             alert("Inicio exitoso")
         } else {
@@ -34,7 +34,7 @@ function iniciarSesion() {
     function receptor() {
 
 
-        //localStorage.setItem("Usuario",JSON.stringify(usuario));
+        localStorage.setItem("Usuario",JSON.stringify(usuario));
     }
 }
 
@@ -47,7 +47,7 @@ function registro(event) {
 }
 document.querySelector(".btn-iniciarSesion").onclick = iniciar;
 document.querySelector(".btn-registrarse").onclick = registro;
-*/
+
 function mostrasDatosUser() {
 
     if (localStorage.getItem('Usuario')) {
